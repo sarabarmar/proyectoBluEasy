@@ -36,7 +36,7 @@ nav {
     border: 2px solid transparent;
     transition: 0.2s ease;
     padding: 4px 10px;
-    
+
 }
 
 .nav-enlces a:hover {
@@ -99,7 +99,7 @@ nav {
     margin-left: 25px;
     border: 2px solid transparent;
     transition: 0.2s ease;
-      padding: 4px 10px;
+    padding: 4px 10px;
 }
 
 .portfolio-titulo {
@@ -271,18 +271,21 @@ nav {
     color: #515F67;
     font-size: 1.7rem;
 }
-.seccion-7-parrafo{
+
+.seccion-7-parrafo {
     font-size: 1.6rem;
     font-weight: lighter;
     color: #515F67;
     margin: 3% 0;
     line-height: 200%;
 }
-.seccion-7-parrafo-azul{
+
+.seccion-7-parrafo-azul {
     font-size: 0.9rem;
     font-weight: bolder;
     color: #4bc9ff;
 }
+
 .seccion-8 {
     padding: 4% 18%;
     background-image: url(../assets/images/bg_contact.png);
@@ -381,4 +384,136 @@ footer {
 
 .footer-copyright {
     font-size: 0.9rem;
+}
+
+@media (max-width: 1279px) {
+    .seccion-4 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .seccion-4-texto-titulo {
+         width: 52%;;
+    }
+
+    .seccion-4-texto-boton {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 921px) {
+    body {
+        width: 100vw;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .seccion-1-titulo-1 {
+        font-size: 2rem;
+    }
+
+    .seccion-2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 50px;
+        height: 110vh;
+    }
+
+    .seccion-3 {
+        height: 60vh;
+    }
+
+    .seccion-3-portfolio {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .portfolio-titulo {
+        width: 21.5%;
+    }
+
+    .seccion-5-horizontal img {
+        width: 5%;
+        height: 5%;
+    }
+
+    .iconos img {
+        width: 25%;
+        height: 50%;
+    }
+
+    .seccion-8 {
+        height: 75vh;
+    }
+}
+
+@media (max-width: 920px) {
+    .nav-enlces a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .seccion-1 {
+        height: 50vh;
+    }
+
+    .seccion-1-titulo-1 {
+        font-size: 1.5rem;
+    }
+
+    .seccion-3 {
+        height: 72vh;
+    }
+
+    .portfolio-enlaces a {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        align-items: center;
+    }
+
+    .seccion-4 {
+        height: 86vh;
+    }
+      .seccion-4-texto-titulo {
+        width: 52%;
+    }
+    .seccion-4-imagen img{
+        width: 100%;
+    }
+
+.seccion-5-horizontal img {
+    width: 5%;
+    height: 5%;
+}
+
+.seccion-5-texto-titulo {
+    font-size: 1.7rem;
+}
+
+.seccion-5-parrafo {
+    font-size:0.9rem;
+
+}
+
+.seccion-5-arroba {
+    font-size: 0.9rem;
+}
+
+.arroba {
+    
+    font-weight: bolder;
+}
 }
