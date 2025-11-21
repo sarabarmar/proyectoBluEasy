@@ -15,7 +15,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: #353f47cf;
-    padding: 2.7% 20%;
+    padding: 2.7% 18%;
 }
 
 .nav-titulo {
@@ -32,9 +32,11 @@ nav {
     text-decoration: none;
     font-weight: bold;
     font-size: 0.9rem;
-    margin-left: 35px;
+    margin-left: 20px;
     border: 2px solid transparent;
     transition: 0.2s ease;
+    padding: 4px 10px;
+    
 }
 
 .nav-enlces a:hover {
@@ -63,7 +65,7 @@ nav {
     background-color: #4BCAFF;
     display: flex;
     justify-content: space-evenly;
-    padding: 7.5% 17.7%;
+    padding: 7.5% 14.5%;
     color: white;
     height: 40vh;
 }
@@ -79,7 +81,7 @@ nav {
 }
 
 .seccion-3 {
-    padding: 4% 20%;
+    padding: 4% 18%;
 }
 
 .seccion-3-portfolio {
@@ -94,9 +96,10 @@ nav {
     text-decoration: none;
     font-weight: bold;
     font-size: 0.9rem;
-    margin-left: 35px;
+    margin-left: 25px;
     border: 2px solid transparent;
     transition: 0.2s ease;
+      padding: 4px 10px;
 }
 
 .portfolio-titulo {
@@ -105,7 +108,6 @@ nav {
     font-weight: lighter;
     color: #69747B;
     border-bottom: 2px solid #69747B;
-
 }
 
 .portfolio-enlaces a:hover {
@@ -115,8 +117,8 @@ nav {
 
 .seccion-3-imagenes {
     display: grid;
-    grid-template-columns: repeat(4, 31vh);
-    grid-template-rows: repeat(2, 15.2vw);
+    grid-template-columns: repeat(4, 25.60%);
+    grid-template-rows: repeat(2, 55%);
 }
 
 .seccion-3-imagenes img {
@@ -127,7 +129,7 @@ nav {
     display: flex;
     justify-content: space-between;
     background-color: #515F67;
-    padding: 4% 20%;
+    padding: 4% 18%;
     color: white;
 }
 
@@ -145,25 +147,62 @@ nav {
     font-weight: lighter;
     font-size: 0.9rem;
     max-width: 490px;
-    margin-bottom: 8%;
+    margin-bottom: 6%;
 }
+
 .seccion-4-texto-parrafo-2 {
     font-weight: lighter;
     font-size: 0.9rem;
+    max-width: 490px;
+    margin-bottom: 5.5%;
 }
-.seccion-4-texto-boton{
+
+.seccion-4-texto-boton {
     background-color: transparent;
     border-color: #353F46;
     color: #353F46;
     font-weight: bolder;
     font-size: 0.9rem;
-    padding: 3% 9.5%;
-    
+    padding: 3% 9%;
 }
 
 .seccion-5 {
     background-color: #4bc9ff;
-    padding: 4% 20%;
+    padding: 4% 18%;
+    color: white;
+}
+
+.seccion-5-horizontal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion-5-horizontal img {
+    width: 2.5%;
+    height: 2.5%;
+}
+
+.seccion-5-texto-titulo {
+    display: inline-block;
+    width: 3.5%;
+    font-weight: lighter;
+    border-bottom: 2px solid white;
+    font-size: 1.7rem;
+}
+
+.seccion-5-parrafo {
+    font-size: 1.6rem;
+    font-weight: lighter;
+    margin: 2% 0;
+}
+
+.seccion-5-arroba {
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
+.arroba {
+    font-weight: bolder;
 }
 
 .seccion-6 {
@@ -171,22 +210,83 @@ nav {
     height: 55vh;
     background-size: cover;
     background-position: center;
-    padding: 4% 20%;
+    padding: 4% 18%;
     color: white;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.seccion-6-titulo {
+    display: inline-block;
+    width: 3.5%;
+    font-weight: lighter;
+    border-bottom: 2px solid white;
+    margin-bottom: 50px;
+    font-size: 1.7rem;
+}
+
+.texto-1 {
+    font-size: 0.9rem;
 }
 
 .textos-iconos {
     display: grid;
+    white-space: wrap;
+}
+
+.textos-iconos {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+    column-gap: 15px;
+    row-gap: 25px;
+}
+
+.iconos {
+    display: flex;
+    gap: 20px;
 }
 
 .seccion-7 {
-    padding: 4% 20%;
+    padding: 4% 18%;
 }
 
+.seccion-7-horizontal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion-7-horizontal img {
+    width: 3%;
+    height: 3%;
+}
+
+.seccion-7-texto-titulo {
+    display: inline-block;
+    width: 3.5%;
+    font-weight: lighter;
+    border-bottom: 2px solid #515F67;
+    color: #515F67;
+    font-size: 1.7rem;
+}
+.seccion-7-parrafo{
+    font-size: 1.6rem;
+    font-weight: lighter;
+    color: #515F67;
+    margin: 3% 0;
+    line-height: 200%;
+}
+.seccion-7-parrafo-azul{
+    font-size: 0.9rem;
+    font-weight: bolder;
+    color: #4bc9ff;
+}
 .seccion-8 {
-    padding: 2% 20%;
+    padding: 4% 18%;
     background-image: url(../assets/images/bg_contact.png);
-    height: 85vh;
+    height: 90vh;
     background-size: cover;
     background-position: center;
     color: white;
@@ -246,7 +346,7 @@ input {
     background-color: #4BCAFF;
     color: white;
     border: none;
-    width: 70%;
+    width: 63%;
     font-weight: bolder;
     padding: 15px 0;
 }
